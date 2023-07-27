@@ -6,10 +6,6 @@
     box-sizing: border-box;
 }
 
-body {
-    font: 14px 'SB 어그로' white;
-}
-
 ul,
 ol,
 li {
@@ -20,10 +16,13 @@ a {
     display: block;
     color: white;
     text-decoration: none;
+    font-family: 'SB 어그로';
 }
 
 p {
     line-height: 1.4;
+    font: 14px 'SB 어그로';
+    color: #fff;
 }
 
 img,
@@ -36,19 +35,22 @@ select {
 
 h1 {
     font-size: 30px;
+    color: #fff;
 }
 
 h2 {
-    font-size: 28px;
+    font-size: 23px;
+    color: #fff;
 }
 
 h3 {
-    font-size: 36px;
-    font-weight: normal;
+    font-size: 20px;
+    color: #fff;
 }
 
 h4 {
     font-size: 18px;
+    color: #fff;
 }
 
 address {
