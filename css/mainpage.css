@@ -476,4 +476,8 @@ main {
     .footer-box > img {
         display: none;
     }
+    .footer-menu > li > a:hover {
+        transform: none;
+    }
+
 }
