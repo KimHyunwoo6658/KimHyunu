@@ -5,11 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="Description" content="인텔 메인 페이지 리뉴얼">
     <meta name="Author" content="김현우">
-    <script>
-        
-    </script>
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/mainpage.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.js"></script>
+    <script>
+        $(function() {
+            $('.menu-btn').on('click', function() {
+                $('.left-menu').slideToggle();
+            })
+        })
+    </script>
     <title>인텔 메인 페이지</title>
 </head>
 <body>
@@ -19,6 +24,8 @@
                 <img class="head-icon" src="./img/header logo.jpg" alt="intel logo">
             </a>
 
+            <span class="menu-btn">메뉴</span>
+
             <ul class="left-menu">
                 <li><a href="#">제품</a></li>
                 <li><a href="#">지원</a></li>
@@ -26,7 +33,7 @@
                 <li><a href="#">개발자</a></li>
                 <li><a href="#">파트너</a></li>
             </ul>
-            <span class="menu-btn">메뉴</span>
+            
             <ul class="right-menu">
                 <li>
                     <a href="#"><img src="./img/header-icon1.jpg" alt="log in icon"></a>

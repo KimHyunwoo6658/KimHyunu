@@ -54,12 +54,12 @@ body {
 .menu-btn {
     font: 14px 'SB 어그로';
     color: white;
-    display: none;
+    display: none; 
 }
 
 /* 모바일 */
 @media (max-width: 768px) {
-    .left-menu > li {
+    .left-menu {
         display: none;
     }
 
